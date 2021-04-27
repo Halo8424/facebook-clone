@@ -47,3 +47,10 @@ header {
     font-size: 40px;
     color: var(--fb-blue);
   }
+
+  .header__logo-search{
+      position: relative;
+      margin-left: 10px;
+  }
+
+  
