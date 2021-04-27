@@ -14,7 +14,7 @@
   --dark-color-text: #090909;
   --light-color-text: #606770;
   --button-link: #e0e2e8;
-  --stores-bg: #090909;
+  --stories-bg: #090909;
 }
 
 /* Body styles */
@@ -45,7 +45,8 @@ header {
 
 .header__logo-icon .fa-facebook {
     font-size: 40px;
-    color: var(--fb-blue);
+    /* color: var(--fb-blue); */
+    color: #0a86f0;
   }
 
   .header__logo-search{
@@ -53,4 +54,9 @@ header {
       margin-left: 10px;
   }
 
-  
+  .header__logo-search .fa-search{
+      position: absolute;
+      top: 14px;
+      left: 10px;
+      color: var(--light-color-text);
+  }
