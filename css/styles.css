@@ -222,3 +222,11 @@ header {
     display: block;
     font-weight: 300;
 }
+.sidenav__item-notification-circle{
+    background: var(--fb-blue);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
