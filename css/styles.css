@@ -19,7 +19,8 @@
   --light-color-text: #606770;
   --button-link: #e0e2e8;
   --stories-bg: #090909;
-}
+  --icon-circle-bg: linear-gradient(0deg, rgba(65,67,69,1) 0%, rgba(110,107,114,1) 100%);
+ }
 
 /* Body styles */
 body {
@@ -241,7 +242,7 @@ header {
   font-size: .9rem;
 }
 .sidenav__item-icon--circle-white {
-  background: var(--fb-blue);
+  background: var(--icon-circle-bg);
   border-radius: 50%;
   font-size: 1rem;
 }
