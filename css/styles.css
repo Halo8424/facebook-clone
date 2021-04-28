@@ -151,8 +151,21 @@ header {
   margin-right: 10px;
 }
 /* Styles for user name */
-.header__user-name{
-    font-size: .9rem;
-    font-weight: 600;
-    margin-right: 20px;
+.header__user-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-right: 20px;
+}
+/* Styles for user circle nav links */
+.header__circle-link {
+  background: var(--button-link);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  color: var(--dark-color-text);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
 }
