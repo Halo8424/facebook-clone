@@ -353,3 +353,8 @@ header {
     top: -20px;
     left: 40px;
 }
+
+.stories__video-container--plain .stories__title{
+    background: transparent;
+    color: var(--fb-white);
+}
