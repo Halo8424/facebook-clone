@@ -322,3 +322,8 @@ header {
     opacity: .4;
     transition: opacity .3s ease-in-out;
 }
+
+.stories__video-container:hover .stories__bg{
+    opacity: .8;
+
+}
