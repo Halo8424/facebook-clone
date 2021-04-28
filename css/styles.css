@@ -19,8 +19,12 @@
   --light-color-text: #606770;
   --button-link: #e0e2e8;
   --stories-bg: #090909;
-  --icon-circle-bg: linear-gradient(0deg, rgba(65,67,69,1) 0%, rgba(110,107,114,1) 100%);
- }
+  --icon-circle-bg: linear-gradient(
+    0deg,
+    rgba(65, 67, 69, 1) 0%,
+    rgba(110, 107, 114, 1) 100%
+  );
+}
 
 /* Body styles */
 body {
@@ -188,14 +192,15 @@ header {
   display: flex;
 }
 /* Styles for Side nav container */
-.sidenav{
-    width: 25%;
+.sidenav {
+  width: 25%;
 }
 /* Styles for individual sidenav items inside the sidenav container */
 .sidenav__item {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .sidenav__item-img {
@@ -240,7 +245,7 @@ header {
 .sidenav__item-icon--circle {
   background: var(--button-link);
   border-radius: 50%;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .sidenav__item-icon--circle-white {
   background: var(--icon-circle-bg);
@@ -250,36 +255,58 @@ header {
   width: 35px;
 }
 
-.sidenav__item-icon .fas, .sidenav__item-icon .fab{
-    color: var(--fb-blue);
+.sidenav__item-icon .fas,
+.sidenav__item-icon .fab {
+  color: var(--fb-blue);
 }
-.sidenav__item-icon--circle .fas, .sidenav__item-icon--circle .fab{
-    color: var(--fb-black);
+.sidenav__item-icon--circle .fas,
+.sidenav__item-icon--circle .fab {
+  color: var(--fb-black);
 }
-.sidenav__item-icon--circle-white .fas, .sidenav__item-icon--circle-white .fab{
-    color: var(--fb-whitebg);
+.sidenav__item-icon--circle-white .fas,
+.sidenav__item-icon--circle-white .fab {
+  color: var(--fb-whitebg);
 }
 
 /* Styles for Side nav half way break point */
-.sidenav__line{
-    height: 3px;
-    background: var(--button-link);
-    margin-bottom: 15px;
-    display: block;
+.sidenav__line {
+  height: 3px;
+  background: var(--button-link);
+  margin-bottom: 15px;
+  display: block;
 }
 
-.sidenav__heading-title{
-    display:block;
-    color: var(--light-color-text);
-    font-size: 1.1rem;
-    margin-bottom: 15px;
+.sidenav__heading-title {
+  display: block;
+  color: var(--light-color-text);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+/* Start of Styles for Feed Section */
+
+.feed {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* Styles for Main Feed Container */
-.feed{
-    width: 50%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.stories {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.stories__video-container {
+  overflow: hidden;
+  width: 120px;
+  height: 200px;
+  border-radius: 5px;
+  background: var(--stories-bg);
+  position: relative;
+  box-shadow: 0px 2px 2px 0px var(--fb-blue);
+  margin-right: 10px;
+  cursor: pointer;
 }
