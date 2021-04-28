@@ -186,6 +186,10 @@ header {
   padding: 90px 15px 20px;
   display: flex;
 }
+/* Styles for Side nav container */
+.sidenav{
+    width: 25%;
+}
 /* Styles for individual sidenav items inside the sidenav container */
 .sidenav__item {
   display: flex;
@@ -250,4 +254,12 @@ header {
 }
 .sidenav__item-icon--circle-white .fas, .sidenav__item-icon--circle-white .fab{
     color: var(--fb-whitebg);
+}
+
+/* Styles for Side nav half way break point */
+.sidenav__line{
+    height: 3px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
 }
