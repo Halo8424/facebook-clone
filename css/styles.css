@@ -310,3 +310,15 @@ header {
   margin-right: 10px;
   cursor: pointer;
 }
+.stories__video-container:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.stories__bg{
+    object-fit: cover;
+    object-position: center;
+    width: 125px;
+    height: 200px;
+    opacity: .4;
+    transition: opacity .3s ease-in-out;
+}
