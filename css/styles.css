@@ -179,3 +179,16 @@ header {
 .header__link-icon{
     font-size: .9rem;
 }
+/* ***************************************** */
+
+/* Styles for Content area feed container */
+.content-area--feed{
+    padding: 90px 15px 20px;
+    display: flex;
+}
+/* Styles for individual sidenav items inside the sidenav container */
+.sidenav__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
