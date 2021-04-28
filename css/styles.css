@@ -245,6 +245,8 @@ header {
   background: var(--icon-circle-bg);
   border-radius: 50%;
   font-size: 1rem;
+  height: 35px;
+  width: 35px;
 }
 
 .sidenav__item-icon .fas, .sidenav__item-icon .fab{
@@ -263,4 +265,11 @@ header {
     background: var(--button-link);
     margin-bottom: 15px;
     display: block;
+}
+
+.sidenav__heading-title{
+    display:block;
+    color: var(--light-color-text);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
 }
