@@ -510,3 +510,9 @@ header {
     font-size: .9rem;
     font-weight: 300;
 }
+
+.photopost__stats-emojis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
