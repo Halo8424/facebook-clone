@@ -417,56 +417,72 @@ header {
   justify-content: space-between;
 }
 
-.post-types__item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+.post-types__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
-.post-types__item .fas, .post-types__item .far{
-    margin: 10px;
-    font-size: 1.5rem;
+.post-types__item .fas,
+.post-types__item .far {
+  margin: 10px;
+  font-size: 1.5rem;
 }
 
-.post-types__item .fa-video{
-    color: var(--fb-red);
+.post-types__item .fa-video {
+  color: var(--fb-red);
 }
-.post-types__item .fa-photo-video{
-    color: var(--fb-green);
+.post-types__item .fa-photo-video {
+  color: var(--fb-green);
 }
-.post-types__item .fa-laugh-beam{
-    color: var(--fb-yellow);
+.post-types__item .fa-laugh-beam {
+  color: var(--fb-yellow);
 }
 
 /* Styles for class="feed__box photopost" container & elments within */
-.photopost{
-    padding: 0;
+.photopost {
+  padding: 0;
 }
-.photopost__info{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px 0px;
-}
-
-.photopost__left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.photopost__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 20px;
 }
 
-.photopost__left img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
+.photopost__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.photopost__details{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.photopost__left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.photopost__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.photopost__name {
+  font-size: .9rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.photopost__date {
+  font-size: 0.7rem;
+  color: var(--light-color-text);
+}
+
+.photopost__info .fa-ellipsis-h {
+  color: var(--light-color-text);
 }
