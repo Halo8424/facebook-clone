@@ -404,3 +404,10 @@ header {
     font-weight: 300;
     width: 100%;
 }
+
+.hline{
+    height: 1px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
+}
