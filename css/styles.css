@@ -433,3 +433,9 @@ header {
 .post-types__item .fa-video{
     color: var(--fb-red);
 }
+.post-types__item .fa-photo-video{
+    color: var(--fb-green);
+}
+.post-types__item .fa-laugh-beam{
+    color: var(--fb-yellow);
+}
