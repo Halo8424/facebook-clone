@@ -190,6 +190,7 @@ header {
 .content-area--feed {
   padding: 90px 15px 20px;
   display: flex;
+  height: 2500px;
 }
 /* Styles for Side nav container */
 .sidenav {
@@ -495,4 +496,17 @@ header {
 
 .photopost__image img{
     width: 100%;
+}
+
+/* Styles for photopost__stats container & elements within */
+
+.photopost__stats{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: var(--light-color-text);
+    font-size: .9rem;
+    font-weight: 300;
 }
