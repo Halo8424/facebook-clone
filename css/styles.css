@@ -530,3 +530,12 @@ header {
     border: 2px solid white;
     position: relative;
 }
+.emoji-circle:nth-child(1){
+    z-index: 3;
+}
+.emoji-circle:nth-child(1){
+    z-index: 2;
+}
+.emoji-circle:nth-child(1){
+    z-index: 1;
+}
