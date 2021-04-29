@@ -439,3 +439,15 @@ header {
 .post-types__item .fa-laugh-beam{
     color: var(--fb-yellow);
 }
+
+/* Styles for class="feed__box photopost" container & elments within */
+.photopost{
+    padding: 0;
+}
+.photopost__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px;
+}
