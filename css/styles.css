@@ -424,3 +424,12 @@ header {
     text-align: center;
     width: 100%;
 }
+
+.post-types__item .fas, .post-types__item .far{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.post-types__item .fa-video{
+    color: var(--fb-red);
+}
