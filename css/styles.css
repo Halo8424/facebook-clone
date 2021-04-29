@@ -539,3 +539,13 @@ header {
 .emoji-circle:nth-child(1){
     z-index: 1;
 }
+
+.emoji-circle--blue{
+    background:linear-gradient(0deg, rgba(4,60,108,1) 0%, rgba(10,134,240,1) 100%);
+}
+.emoji-circle--red{
+    background: linear-gradient(0deg, rgba(185,30,52,1) 0%, rgba(238,35,64,1) 100%);
+}
+.emoji-circle--yellow{
+    background: linear-gradient(0deg, rgba(209,150,32,1) 0%, rgba(246,176,36,1) 100%);
+}
