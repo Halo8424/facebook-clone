@@ -392,3 +392,15 @@ header {
     border-radius: 50%;
     margin-right: 10px;
 }
+
+.newpost input[type="text"]{
+    background: var(--fb-bgcolor);
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+    padding-left: 20px;
+    font-weight: 300;
+    width: 100%;
+}
