@@ -443,7 +443,8 @@ header {
 
 /* Styles for class="feed__box photopost" container & elments within */
 .photopost {
-  padding: 0;
+  padding: 0 0 20px;
+  margin-bottom: 20px;
 }
 .photopost__info {
   width: 100%;
@@ -463,7 +464,7 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 .photopost__details {
@@ -485,4 +486,13 @@ header {
 
 .photopost__info .fa-ellipsis-h {
   color: var(--light-color-text);
+}
+
+.photopost__description{
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.photopost__image img{
+    width: 100%;
 }
