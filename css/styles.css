@@ -517,6 +517,10 @@ header {
   align-items: center;
 }
 
+.photopost__stats-share{
+    font-weight: 400;
+}
+
 .emoji-circle {
   display: flex;
   width: 22px;
@@ -589,3 +593,6 @@ header {
   text-decoration: none;
 }
 
+.photopost__link .fas{
+    margin-right: 10px;
+}
