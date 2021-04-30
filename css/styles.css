@@ -24,6 +24,7 @@
     rgba(65, 67, 69, 1) 0%,
     rgba(110, 107, 114, 1) 100%
   );
+  --shadow-color: rgba(0, 0, 0, 0.25);
 }
 
 /* Body styles */
@@ -41,7 +42,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px var(--shadow-color);
   position: fixed;
   z-index: 20;
   top: 0;
@@ -190,7 +191,6 @@ header {
 .content-area--feed {
   padding: 90px 15px 20px;
   display: flex;
-  height: 2500px;
 }
 /* Styles for Side nav container */
 .sidenav {
@@ -378,7 +378,7 @@ header {
   width: 100%;
   flex: none;
   border-radius: 5px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 2px 0px var(--shadow-color);
   margin-bottom: 20px;
 }
 
@@ -517,8 +517,8 @@ header {
   align-items: center;
 }
 
-.photopost__stats-share{
-    font-weight: 400;
+.photopost__stats-share {
+  font-weight: 400;
 }
 
 .emoji-circle {
@@ -593,6 +593,28 @@ header {
   text-decoration: none;
 }
 
-.photopost__link .fas{
-    margin-right: 10px;
+.photopost__link .fas {
+  margin-right: 10px;
+}
+
+/* Styles for floating messenger */
+
+.floatingmsg {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+}
+
+.floatingmsg__bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px 0px var(--shadow-color);
+  background: var(--button-link);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
