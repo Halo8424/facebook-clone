@@ -283,6 +283,27 @@ header {
   font-size: 1.1rem;
   margin-bottom: 15px;
 }
+/* Start of Styles for right-sidenave */
+.right-sidenav {
+  width: 25%;
+}
+.right-sidenav__heading-title {
+  display: block;
+  color: var(--light-color-text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.right-sidenav__section-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 20px;
+  
+}
+
 /* Start of Styles for Feed Section */
 
 .feed {
@@ -611,7 +632,7 @@ header {
   border-radius: 50%;
   box-shadow: 0px 5px 10px 0px var(--shadow-color);
   background: var(--button-link);
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
   display: flex;
   justify-content: center;
   align-items: center;
