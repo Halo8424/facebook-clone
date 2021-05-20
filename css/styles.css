@@ -26,7 +26,7 @@
   );
   --shadow-color: rgba(0, 0, 0, 0.25);
 }
-
+ 
 /* Body styles */
 body {
   background: var(--fb-bgcolor);
@@ -48,28 +48,28 @@ header {
   top: 0;
   left: 0;
 }
-/* Header logo section container styles */
+/* Header__logo-section Styles */
 .header__logo-section {
   display: flex;
 }
-/* Header logo icon container & Icon class */
+
 .header__logo-icon .fa-facebook {
   font-size: 40px;
   color: var(--fb-blue);
 }
-/* Header logo search container */
+
 .header__logo-search {
   position: relative;
   margin-left: 10px;
 }
-/* Header logo search container's Class styles */
+
 .header__logo-search .fa-search {
   position: absolute;
   top: 14px;
   left: 10px;
   color: var(--light-color-text);
 }
-/* Header logo search container's input styles */
+
 .header__logo-search input[type="text"] {
   background: var(--fb-bgcolor);
   padding: 10px;
