@@ -48,7 +48,7 @@ header {
   top: 0;
   left: 0;
 }
-/* Header__logo-section Styles */
+/* header__logo-section Styles */
 .header__logo-section {
   display: flex;
 }
@@ -80,14 +80,14 @@ header {
   font-weight: 300;
   border: none;
 }
-/* Header menu tabs container styles */
+/* header__menu-tabs Styles  */
 .header__menu-tabs {
   display: flex;
   max-width: 600px;
   width: 100%;
   flex: none;
 }
-/* Header menu tab "individual tab" styles  */
+
 .header__menu-tab {
   display: flex;
   justify-content: center;
@@ -100,7 +100,7 @@ header {
   font-size: 1.3rem;
 }
 
-/* Styles for hover on tabs and icons */
+
 
 .header__menu-tab--active,
 .header__menu-tab:hover {
@@ -117,12 +117,12 @@ header {
   color: var(--fb-blue);
 }
 
-/* Style for Icon positioning realitive on the parent*/
+
 .header__menu-tab .fas,
 .header__menu-tab .fab {
   position: relative;
 }
-/* Styles for header notification bubble's */
+
 .header__notification-bubble {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--fb-red);
