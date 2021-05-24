@@ -304,6 +304,14 @@ header {
   text-decoration: none;
 }
 
+.sidenav__item-icon--right{
+  
+}
+.sidenav__item-icon--right .fas{
+  color: var(--light-color-text);
+  font-size: 1rem;
+}
+
 
 
 /* Start of Styles for Feed Section */
