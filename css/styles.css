@@ -287,6 +287,9 @@ header {
 .right-sidenav {
   width: 25%;
 }
+.sidenav__heading-title--right{
+  margin-left: 10px;
+}
 
 /* Start of Styles for Feed Section */
 
