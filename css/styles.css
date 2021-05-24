@@ -287,22 +287,6 @@ header {
 .right-sidenav {
   width: 25%;
 }
-.right-sidenav__heading-title {
-  display: block;
-  color: var(--light-color-text);
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.right-sidenav__section-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px 20px;
-  
-}
 
 /* Start of Styles for Feed Section */
 
