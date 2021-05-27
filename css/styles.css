@@ -299,6 +299,22 @@ header {
   margin-right: 20px;
   object-fit: cover;
 }
+
+.sidenav__item-right--contact{
+  position: relative;
+}
+
+.contact__notification{
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: rgb(20, 199, 20);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 .sidenav__item-notification-link{
   color: var(--light-color-text);
   text-decoration: none;
