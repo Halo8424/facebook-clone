@@ -304,8 +304,13 @@ header {
   text-decoration: none;
 }
 
-.sidenav__item-icon--right{
-  
+.sidenav__item--right{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidenav__item--right div .fas{
+  margin-right: 20px;
 }
 .sidenav__item-icon--right .fas{
   color: var(--light-color-text);
