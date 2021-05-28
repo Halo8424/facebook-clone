@@ -510,7 +510,7 @@ header {
   padding: 10px 20px 20px;
 }
 
-.photopost__left {
+.photopost__left { 
   display: flex;
   justify-content: center;
   align-items: center;
