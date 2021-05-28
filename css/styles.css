@@ -756,6 +756,9 @@ header {
 }
 
 @media only screen and (max-width: 375px) {
+  .header__actions {
+    display: none;
+  }
   .floatingmsg {
     display: none;
   }
@@ -774,6 +777,12 @@ header {
 @media only screen and (max-width: 321px){
   .newpost input[type="text"] {
   font-size: .7rem;
+}
+.photopost__stats-share {
+  margin-left: 2.5rem;
+}
+.stories__title {
+  font-size: .9rem;
 }
 }
 
