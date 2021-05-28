@@ -83,7 +83,7 @@ header {
 }
 
 .header__mobile-button {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   font-size: 1.7rem;
@@ -707,7 +707,9 @@ header {
   .header__menu-tabs {
     display: none;
   }
-  /* .header__logo-search input[type="text"]{width: 15px;} */
+  .feed{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -728,6 +730,12 @@ header {
     width: 40px;
     height: 40px;
     padding: 0;
+  }
+  .header__mobile-button{
+    display: flex;
+  }
+  .feed{
+    display: block;
   }
 }
 
