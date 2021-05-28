@@ -707,3 +707,8 @@ header {
 }
 
 
+/* Media Query Section */
+
+@media only screen and (max-width: 1300px){
+  .header__menu-tabs{display: none;}
+}
