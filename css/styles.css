@@ -766,4 +766,14 @@ header {
   .post-types__item .fas, .post-types__item .far{
     font-size: 1rem;
   }
+  .post-types__item span{
+    font-size: .8rem;
+  }
 }
+
+@media only screen and (max-width: 321px){
+  .newpost input[type="text"] {
+  font-size: .7rem;
+}
+}
+
